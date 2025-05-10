@@ -1,59 +1,63 @@
-# LearningCenter
+# ACME Learning Center Web Application (learning-center)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+## Summary
+
+ACME Learning Center Application (Angular Framework Edition), illustrating CRUD behavior and in-app navigation, with Angular Material and Angular Router. It also uses a JSON Server Fake API.
+
+## Features
+
+Project features include:
+
+- CRUD operations for Course Management.
+- Material Design-based components.
+- Integration with JSON Server Fake API.
+- In-app navigation.
+- Internationalization (i18n).
+- Environment configuration.
+- Domain-Driver Design approach.
+
+## Documentation
+The documentation is available in the `docs` folder. It includes:
+- User Stories are available in the [docs/user-stories.md](docs/user-stories.md) file.
+- PlantUML Class diagrams are available in the [docs/class-diagram.puml](docs/class-diagram.puml) file.
+- C4 Model Software Architecture is available in the [docs/software-architecture.dsl](docs/software-architecture.dsl) file.
+
+## Frameworks and Libraries
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+
+It also uses the following dependencies:
+
+- Angular Material (https://material.angular.io/).
+- ngx-translate ( https://github.com/ngx-translate/core ).
+- ngx-translate/http-loader (https://github.com/ngx-translate/http-loader).
+- JSON Server stable version(https://github.com/typicode/json-server/tree/v0).
+
+## Fake API start
+
+Run the following commands to start the fake API server:
+
+```bash
+cd server
+sh start.sh
+``` 
+
+The API endpoints should be accessible at `http://localhost:3000/api/v1`. The current API resource endpoints are:
+- `http://localhost:3000/api/v1/courses`
+
 
 ## Development server
 
-To start a local development server, run:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-```bash
-ng serve
-```
+## Build
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
