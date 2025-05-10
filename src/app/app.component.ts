@@ -4,6 +4,7 @@ import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {MatToolbar, MatToolbarRow} from '@angular/material/toolbar';
 import {MatAnchor} from '@angular/material/button';
 import {LanguageSwitcherComponent} from './public/components/language-switcher/language-switcher.component';
+import {FooterContentComponent} from './public/components/footer-content/footer-content.component';
 
 /**
  * Root component of the application.
@@ -11,7 +12,7 @@ import {LanguageSwitcherComponent} from './public/components/language-switcher/l
  */
 @Component({
   selector: 'app-root',
-  imports: [MatToolbar, MatToolbarRow, MatAnchor, RouterLink, RouterLinkActive, TranslatePipe, LanguageSwitcherComponent, RouterOutlet],
+  imports: [MatToolbar, MatToolbarRow, MatAnchor, RouterLink, RouterLinkActive, TranslatePipe, LanguageSwitcherComponent, RouterOutlet, FooterContentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
