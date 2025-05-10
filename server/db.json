@@ -5,7 +5,11 @@
     {
       "id": 1,
       "title": "Angular Basics",
-      "description": "Learn the basics of Angular framework."
+      "description": "Learn the basics of Angular framework."},
+    {
+      "id": 2,
+      "title": "Spring Boot Foundation",
+      "description": "Spring Boot Fundamentals."
     }
   ]
 }
