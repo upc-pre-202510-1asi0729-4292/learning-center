@@ -5,11 +5,32 @@
     {
       "id": 1,
       "title": "Angular Basics",
-      "description": "Learn the basics of Angular framework."},
+      "description": "Learn basics of Angular framework."
+    },
     {
       "id": 2,
       "title": "Spring Boot Foundation",
       "description": "Spring Boot Fundamentals."
+    },
+    {
+      "id": 3,
+      "title": "Spring Advanced",
+      "description": "Spring Advanced"
+    },
+    {
+      "id": 4,
+      "title": "Angular For All",
+      "description": "Angular For All"
+    },
+    {
+      "id": 5,
+      "title": "Java Functional",
+      "description": "JFF"
+    },
+    {
+      "id": 6,
+      "title": "TypeScript Basics",
+      "description": "TypeScript Basics"
     }
   ]
 }
