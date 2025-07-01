@@ -2,7 +2,7 @@
 
 ## Summary
 
-ACME Learning Center Application (Angular Framework Edition), illustrating CRUD behavior and in-app navigation, with Angular Material and Angular Router. It also uses a JSON Server Fake API.
+ACME Learning Center Application (Angular Framework Edition), illustrating CRUD behavior and in-app navigation, with Angular Material and Angular Router. It has support for using a JSON Server Fake API.
 
 ## Features
 
