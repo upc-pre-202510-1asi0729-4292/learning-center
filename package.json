@@ -30,6 +30,7 @@
     "@angular/cli": "^19.2.10",
     "@angular/compiler-cli": "^19.2.0",
     "@types/jasmine": "~5.1.0",
+    "http-server": "^14.1.1",
     "jasmine-core": "~5.6.0",
     "json-server": "^0.17.4",
     "karma": "~6.4.0",
