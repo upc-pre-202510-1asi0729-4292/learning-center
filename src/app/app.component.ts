@@ -5,6 +5,7 @@ import {MatToolbar, MatToolbarRow} from '@angular/material/toolbar';
 import {MatAnchor} from '@angular/material/button';
 import {LanguageSwitcherComponent} from './public/components/language-switcher/language-switcher.component';
 import {FooterContentComponent} from './public/components/footer-content/footer-content.component';
+import {AuthenticationSectionComponent} from './iam/components/authentication-section/authentication-section.component';
 
 /**
  * Root component of the application.
@@ -12,7 +13,7 @@ import {FooterContentComponent} from './public/components/footer-content/footer-
  */
 @Component({
   selector: 'app-root',
-  imports: [MatToolbar, MatToolbarRow, MatAnchor, RouterLink, RouterLinkActive, TranslatePipe, LanguageSwitcherComponent, RouterOutlet, FooterContentComponent],
+  imports: [MatToolbar, MatToolbarRow, MatAnchor, RouterLink, RouterLinkActive, TranslatePipe, LanguageSwitcherComponent, RouterOutlet, FooterContentComponent, AuthenticationSectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
