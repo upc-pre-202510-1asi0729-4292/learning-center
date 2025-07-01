@@ -15,6 +15,8 @@ export const authenticationGuard: CanActivateFn = (route,
                                                    state) => {
   const authenticationService = inject(AuthenticationService);
   const router = inject(Router);
+  console.log(route);
+  console.log(state);
   return authenticationService.isSignedIn.pipe(take(1), map(isSignedIn => {
     if (isSignedIn) return true;
     else {
